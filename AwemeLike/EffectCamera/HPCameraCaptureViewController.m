@@ -305,10 +305,11 @@
     self.navigationController.navigationBar.hidden = true;
     self.navigationController.interactivePopGestureRecognizer.enabled = false;
     self.view.bounds = [UIScreen mainScreen].bounds;
-    self.preview.bounds = self.view.bounds;
-    self.beautyView.frame = self.view.bounds;
-    self.filterView.frame = self.view.bounds;
-    self.hudView.frame = self.view.bounds;
+    CGRect viewRec = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 44);
+    self.preview.bounds = viewRec;
+    self.beautyView.frame = viewRec;
+    self.filterView.frame = viewRec;
+    self.hudView.frame = viewRec;
     self.view.backgroundColor = [UIColor colorWithWhite:0 alpha:1];
     
     
