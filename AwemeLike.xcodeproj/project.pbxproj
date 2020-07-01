@@ -91,6 +91,8 @@
 		217756842392B29C0081310B /* GPUImageFaceMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 217756712392B29B0081310B /* GPUImageFaceMovie.m */; };
 		217756852392B29C0081310B /* GPUImageBoxHighPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 217756722392B29B0081310B /* GPUImageBoxHighPassFilter.m */; };
 		217756872392B29C0081310B /* GPUImageThinFaceFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 217756772392B29C0081310B /* GPUImageThinFaceFilter.m */; };
+		345BC64B24A9874C0035638D /* mouth1.png in Resources */ = {isa = PBXBuildFile; fileRef = 345BC64A24A9874C0035638D /* mouth1.png */; };
+		3487B6C124A5F727006B6B6D /* blusher1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3487B6C024A5F727006B6B6D /* blusher1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -256,6 +258,8 @@
 		217756742392B29B0081310B /* GPUImageMyGaussianFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageMyGaussianFilter.h; sourceTree = "<group>"; };
 		217756762392B29B0081310B /* GPUImageRotateFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageRotateFilter.h; sourceTree = "<group>"; };
 		217756772392B29C0081310B /* GPUImageThinFaceFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageThinFaceFilter.m; sourceTree = "<group>"; };
+		345BC64A24A9874C0035638D /* mouth1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouth1.png; sourceTree = "<group>"; };
+		3487B6C024A5F727006B6B6D /* blusher1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blusher1.png; sourceTree = "<group>"; };
 		5F25D7C687FB5125859A6C26 /* Pods-AwemeLike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwemeLike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwemeLike/Pods-AwemeLike.debug.xcconfig"; sourceTree = "<group>"; };
 		9D323F5003E7E4D0F91C6CAD /* Pods-AwemeLike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwemeLike.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwemeLike/Pods-AwemeLike.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -529,9 +533,11 @@
 		217753D62392995D0081310B /* Beauty */ = {
 			isa = PBXGroup;
 			children = (
+				345BC64A24A9874C0035638D /* mouth1.png */,
 				217753D72392995D0081310B /* lookUpSkin.png */,
 				217753D82392995D0081310B /* lookUpCustom.png */,
 				217753D92392995D0081310B /* mouth.png */,
+				3487B6C024A5F727006B6B6D /* blusher1.png */,
 				217753DA2392995D0081310B /* blusher.png */,
 				217753DB2392995D0081310B /* lookUpOrigin.png */,
 				217753DC2392995D0081310B /* lookUpGray.png */,
@@ -652,6 +658,7 @@
 				2177565423929B550081310B /* HPPlayerViewController.xib in Resources */,
 				2177565723929B800081310B /* Aweme.storyboard in Resources */,
 				2177543B2392995D0081310B /* lookUpGray.png in Resources */,
+				3487B6C124A5F727006B6B6D /* blusher1.png in Resources */,
 				21775350239298090081310B /* LaunchScreen.storyboard in Resources */,
 				2177543C2392995D0081310B /* lookup2.png in Resources */,
 				2177534D239298090081310B /* Assets.xcassets in Resources */,
@@ -661,6 +668,7 @@
 				2177541F2392995D0081310B /* effect.bundle in Resources */,
 				2177543A2392995D0081310B /* lookUpOrigin.png in Resources */,
 				217754372392995D0081310B /* lookUpCustom.png in Resources */,
+				345BC64B24A9874C0035638D /* mouth1.png in Resources */,
 				2177534B239298070081310B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

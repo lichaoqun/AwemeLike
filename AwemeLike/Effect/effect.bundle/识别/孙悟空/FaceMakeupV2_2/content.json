@@ -1,0 +1,11 @@
+{
+    "content": {
+        "path": "makeup.json"
+    },
+    "requirement": {
+        "faceDetect": true,
+        "matting": false
+    },
+    "tag": "FaceMakeupV2_2_8eb098c839784bc69ae8e669deeee718",
+    "version": "1.0"
+}

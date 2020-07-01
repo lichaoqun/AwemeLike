@@ -1,0 +1,28 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "path": "FaceMakeupV2_2/",
+                "type": "FaceMakeupV2",
+                "zorder": 2899
+            },
+            {
+                "path": "FaceMakeupV2/",
+                "type": "FaceMakeupV2",
+                "zorder": 2898
+            }
+        ],
+        "exclusiveScene": [
+            {
+                "sceneKey": "FaceMakeup*",
+                "tagName": [
+                    "FaceMakeupV2_2/",
+                    "FaceMakeupV2/"
+                ],
+                "priority": 9999
+            }
+        ]
+    },
+    "name": "ES_a5e5482f78d847cabf5b2209aad0110c",
+    "version": "2.8.0"
+}

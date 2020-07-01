@@ -1,0 +1,39 @@
+{
+    "faceID": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "faceSDKType": 2,
+    "filters": [
+        {
+            "2d_sequence_resources": {
+                "imageCount": 1,
+                "imageInterval": 0.05,
+                "name": "eye_2_",
+                "path": "eye_2/"
+            },
+            "blendMode": 0,
+            "checked": true,
+            "filterType": "eye_part",
+            "intensity": 1,
+            "name": "眼部效果",
+            "rect": {
+                "height": 1280,
+                "width": 1280,
+                "x": 0,
+                "y": 0
+            },
+            "zPosition": 5000
+        }
+    ],
+    "standardFaceKeyPoints": "mask/texcoord.txt",
+    "standardFaceSize": {
+        "height": 1280,
+        "width": 1280
+    },
+    "version": "1.1"
+}
