@@ -7,16 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C46EE36B-B9D7-4947-A7B4-0BF35F9D6ABC"
+            uuid = "710E1D0F-9BE6-41EF-B829-982EDDA344FD"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AwemeLike/FaceFilter/FaceDetector.mm"
+            filePath = "AwemeLike/Effect/HPModelEffectFeature.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
-            landmarkName = "-getLandmarksFromSampleBuffer:"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
+            landmarkName = "-vertexMatrix"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE683781-EA96-427D-ABF3-ADBA5C7627F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwemeLike/Effect/HPModelEffectFeature.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
+            landmarkName = "-vertexMatrix"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

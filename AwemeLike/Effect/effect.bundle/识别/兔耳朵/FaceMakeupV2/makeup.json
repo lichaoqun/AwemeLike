@@ -1,0 +1,120 @@
+{
+    "faceID": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "faceSDKType": 2,
+    "filters": [
+        {
+            "2d_sequence_resources": {
+                "imageCount": 1,
+                "imageInterval": 0.5,
+                "name": "usmzudia_1548311183.png_",
+                "path": "usmzudia_1548311183.png/"
+            },
+            "blendMode": 0,
+            "filterType": "mask",
+            "intensity": 1,
+            "rect": {
+                "height": 109,
+                "width": 505,
+                "x": 384,
+                "y": 557
+            },
+            "zPosition": 5000
+        },
+        {
+            "2d_sequence_resources": {
+                "imageCount": 1,
+                "imageInterval": 0.5,
+                "name": "lrfkqyuq_1548314235.png_",
+                "path": "lrfkqyuq_1548314235.png/"
+            },
+            "blendMode": 15,
+            "filterType": "mask",
+            "intensity": 1,
+            "rect": {
+                "height": 444,
+                "width": 621,
+                "x": 374,
+                "y": 400
+            },
+            "zPosition": 4999
+        },
+        {
+            "2d_sequence_resources": {
+                "imageCount": 1,
+                "imageInterval": 0.5,
+                "name": "czjfcigi_1548311161.png_",
+                "path": "czjfcigi_1548311161.png/"
+            },
+            "blendMode": 0,
+            "filterType": "eye_part",
+            "intensity": 1,
+            "rect": {
+                "height": 96,
+                "width": 390,
+                "x": 445,
+                "y": 458
+            },
+            "zPosition": 4998
+        },
+        {
+            "2d_sequence_resources": {
+                "imageCount": 1,
+                "imageInterval": 0.5,
+                "name": "winujwoj_1548314243.png_",
+                "path": "winujwoj_1548314243.png/"
+            },
+            "blendMode": 15,
+            "filterType": "eye_part",
+            "intensity": 1,
+            "rect": {
+                "height": 147,
+                "width": 466,
+                "x": 407,
+                "y": 428
+            },
+            "zPosition": 4997
+        },
+        {
+            "blendMode": 0,
+            "blend_resources": {
+                "imageCount": 1,
+                "imageInterval": 0.05,
+                "name": "kjglknen",
+                "path": "kjglknen_1548315572/"
+            },
+            "filterType": "pupil",
+            "intensity": 1,
+            "mask_resources": {
+                "imageCount": 1,
+                "imageInterval": 0.05,
+                "name": "oyqobrqe",
+                "path": "oyqobrqe_1548315572/"
+            },
+            "pupilV2Param": {
+                "enableReflect": true,
+                "reflectBlendMode": 21,
+                "reflectIntensity": 1
+            },
+            "rect": {
+                "height": 71,
+                "width": 366,
+                "x": 458,
+                "y": 482
+            },
+            "zPosition": 4996
+        }
+    ],
+    "standardFaceKeyPoints": "mask/texcoord.txt",
+    "standardFaceSize": {
+        "height": 1280,
+        "width": 1280
+    },
+    "version": "1.1"
+}

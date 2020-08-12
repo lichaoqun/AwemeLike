@@ -1,0 +1,42 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "path": "2DSticker_3/",
+                "type": "2DSticker",
+                "zorder": 5005
+            },
+            {
+                "path": "2DSticker_2/",
+                "type": "2DSticker",
+                "zorder": 5004
+            },
+            {
+                "path": "2DSticker/",
+                "type": "2DSticker",
+                "zorder": 5003
+            },
+            {
+                "path": "FaceMakeupV2/",
+                "type": "FaceMakeupV2",
+                "zorder": 2899
+            },
+            {
+                "path": "Filter/",
+                "type": "Filter",
+                "zorder": 2898
+            }
+        ],
+        "exclusiveScene": [
+            {
+                "sceneKey": "FaceMakeup*",
+                "tagName": [
+                    "FaceMakeupV2/"
+                ],
+                "priority": 9999
+            }
+        ]
+    },
+    "name": "ES_f005b36de0264e45a4bb36547ff060af",
+    "version": "2.8.0"
+}

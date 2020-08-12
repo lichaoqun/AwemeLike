@@ -1,0 +1,43 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "defaultEnable": true,
+                "path": "FaceMakeupV2_1/",
+                "type": "FaceMakeupV2",
+                "zorder": 2999
+            },
+            {
+                "path": "2D_GE_3Screens/",
+                "type": "GeneralEffect",
+                "zorder": 5110,
+                "defaultEnable": true
+            },
+            {
+                "defaultEnable": false,
+                "path": "FaceMakeupV2_2/",
+                "type": "FaceMakeupV2",
+                "zorder": 2999
+            },
+            {
+                "defaultEnable": false,
+                "path": "FaceMakeupV2_3/",
+                "type": "FaceMakeupV2",
+                "zorder": 2999
+            }
+        ],
+        "exclusiveScene": [
+            {
+                "sceneKey": "FaceMakeup*",
+                "tagName": [
+                    "FaceMakeupV2_1/",
+                    "FaceMakeupV2_2/",
+                    "FaceMakeupV2_3/"
+                ],
+                "priority": 9999
+            }
+        ]
+    },
+    "name": "ES_54f0ffg32ve16",
+    "version": "2.9.1"
+}
